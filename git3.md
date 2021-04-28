@@ -140,3 +140,21 @@ git grep "www.hostinger.com"
 ### gitk  shows the graphical interface for a local repository. Just run:
 
 gitk
+
+- ###  git instaweb ** allows you to browse your local repository in the GitWeb interface. For example:
+
+git instaweb –http = webrick
+
+- ### git gc ** will clean up unnecessary files and optimize the local repository.
+
+git gc
+
+- ###  git archive  allows the user to create zip or tar archives containing the constituents of a single repository tree. For example:
+
+git archive - -format = tar master
+
+-
+
+- ### git rebase  is used to apply certain changes from one branch to another. For example:
+
+git rebase master
