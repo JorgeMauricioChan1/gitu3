@@ -92,3 +92,51 @@ git diff --base <homework.md>
 - The following command is used to see the conflicts between branches before merging them:
 git diff <source-branch> <target-branch>
 
+to see a list of all conflicts present use:
+
+git diff
+
+- ###  git tag  marks specific commits. Developers use it to mark release points like v1.0 and v2.0.
+
+git tag 1.1.0 <instert-commitID-here>
+
+- ### git log   is used to view the history of the repository listing certain details of the commit. When executing the command you get an output like this:
+
+commit 15f4b6c44b3c8344caasdac9e4be13246e21sadw
+Author: Jorge Chan <2009035 @ upy, edu.mx>
+Date: Mon Oct 1 12:56:29 2016 -0600
+
+- ### git reset  is used to reset the index and the working directory to the last commit state.
+
+git reset - -hard HEAD
+
+- ### git rm  can be used to remove files from the index and working directory.
+
+git rm homework.txt
+
+### git stash  will momentarily save changes that are not ready to commit. This way, you can come back to the project later.
+
+git stash
+
+###  git show  is used to show information about any git object.
+
+git show
+
+### git fetch  allows the user to search for all objects in a remote repository that are not currently in the local working directory.
+
+git fetch origin
+
+- *
+
+### git cat-file ** is used to view the type and size information of a repository object. Use the -p option in conjunction with the object's SHA-1 value to view information for a specific object, for example:
+
+git cat-file –p d670460b4b4aece5915caf5c68d12f560a9fe3e4
+
+
+### git grep  allows the user to search for specific words and phrases in the commit trees, working directory, and staging area. To search for www.hostinger.com in all files, use:
+
+git grep "www.hostinger.com"
+
+### gitk  shows the graphical interface for a local repository. Just run:
+
+gitk
