@@ -19,68 +19,68 @@ Example: nano commad.md
 
 
 ### git status = get the status of the computer and the status of the git, if it contains files folders.
-
-
-### cat Concatena y muestra un archivo
+### cat Concatenates and displays a file
 cat /git.md/passwd
 
-### chmod cambiar los permisos de un archivo o directorio del servidor, tienes que utilizar el comando. -r - lectura w - escritura    x - ejecución Estas son las variantes mas comunes
+### chmod change the permissions of a file or directory on the server, you have to use the command. -r - read w - write x - execute These are the most common variants
   
-chmod +x miscript  
+chmod + x miscript
 
-### ls lista el  contenido de los  directorios.
-### ls -a Para listar todos los archivos, incluido los archivos ocultos
-### ls -ltr Para listar en orden de creacion (por fecha)
-ls -l [ d | rwx | r-x | r-x 2 ] jjc jjc 4096 2008-10-17 09:12 carpeta ]
+### ls lists the contents of the directories.
+### ls -a To list all files, including hidden files
+### ls -ltr To list in creation order (by date)
+ls -l [d | rwx | r-x | r-x 2] jjc jjc 4096 2008-10-17 09:12 folder]
 
-###  cp copy.     copia ficheros/directorios.
-cp -rfp git 3 /tmp  
+### cp copy. copy files / directories.
+cp -rfp git 3 / tmp
 cp camandos.md
-###  rmdir remove dir. borra  directorios, deben estar vacíos.
+### rmdir remove dir. delete directories, they must be empty.
 rmdir photos
-### mv Descripción: =move. renombrar o mover ficheros/directorios.
+### mv Description: = move. rename or move files / directories.
   
 mv git3 homework
-mv fichero hola_cd
-mv fichero a_directorio
-### file nos dice de que tipo es un fichero.
-file homowork,txt
-#### echo  muestra en pantalla el texto que le siga.  
+mv file hello_cd
+mv file to_directory
+### file tells us what type a file is.
+file homowork, txt
+#### echo displays the text that follows on the screen.
 
-#### clear limpia la pantalla de la terminal  
+#### clear clears the terminal screen
 
-#### date indica la fecha y hora. Para ver un calendario usar  
-La fecha actual es: 28/04/2021
-Escriba la nueva fecha: (dd-mm-aa)
+#### date indicates the date and time. To view a calendar use
+The current date is: 04/28/2021
+Enter the new date: (dd-mm-yy)
 
-#### cal muestra un calendario con el mes actual en pantalla
+#### cal shows a calendar with the current month on the screen
 
-### man muestra la pagina de manuales de un comando o programa para ver todas sus opciones y posibilidades  
+### man shows the manual page of a command or program to see all its options and possibilities
 
  
 man cd
-#### pwd muestra el directorio en el que nos encontramos  
-C:\Users\Jorge\OneDrive\Desktop\git3
+#### pwd shows the directory we are in
+C: \ Users \ Jorge \ OneDrive \ Desktop \ git3
 
-#### less muestra el contenido de un texto por pantalla permitiendo desplazarse por el mismo (mejor que 'more')  
+#### less shows the content of a text on the screen allowing you to scroll through it (better than 'more')
 
 
-#### more muestra el contenido de un texto por pantalla permitiendo desplazarse por el mismo
+#### more shows the content of a text on the screen allowing you to scroll through it
 
-**touch**  Descripción: actualiza la fecha de un archivo, si no existe el fichero lo crea. Ejemplo: touch file fecha
+** touch ** Description: update the date of a file, if the file does not exist it creates it. Example: touch file date
 
-**history**  Descripción: muestra un listado con los comandos ejecutados desde consola
+** history ** Description: shows a list with the commands executed from the console
 
-#### whereis muestra la ubicación de un comando o aplicación Ejemplo: whereis cat : nos localiza el binario ‘cat’, el manual y los source codes si estuvieran en la maquina
+#### whereis shows the location of a command or application Example: whereis cat: locates the 'cat' binary, the manual and the source codes if they were on the machine
 
-#### whatis**  Descripción: muestra una descripción del comando
+#### whatis ** Description: shows a description of the command
 
-#### nano**  Descripción: editor de texto rápido y cómodo
+#### nano ** Description: fast and comfortable text editor
 
-#### vi o vim**  Descripción: editor de texto mejor que cat, muy potente.
+#### vi or vim ** Description: text editor better than cat, very powerful.
 
-#### pico**  Descripción: editor de texto también bastante potente
+#### pico ** Description: text editor also quite powerful
 
-#### read**  Descripcion: lee una variable de entrada estandar y la guarda en una variable
+#### read ** Description: read a standard input variable and save it to a variable
 
-#### seq Descripcion: genera una secuencia de numeros
+#### seq Description: generates a sequence of numbers
+
+
